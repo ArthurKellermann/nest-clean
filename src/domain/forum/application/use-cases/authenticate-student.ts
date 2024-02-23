@@ -1,4 +1,4 @@
-import { StudentsRepository } from '../repositories/Students-repository';
+import { StudentsRepository } from '../repositories/students-repository';
 import { Either, left, right } from '@/core/either';
 import { Injectable } from '@nestjs/common';
 import { HashComparer } from '../cryptography/hash-comparer';
